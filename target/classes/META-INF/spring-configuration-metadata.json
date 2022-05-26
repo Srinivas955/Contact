@@ -1,0 +1,17 @@
+{
+  "groups": [
+    {
+      "name": "app",
+      "type": "in.srinivas.props.AppProperties",
+      "sourceType": "in.srinivas.props.AppProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "app.messages",
+      "type": "java.util.Map<java.lang.String,java.lang.String>",
+      "sourceType": "in.srinivas.props.AppProperties"
+    }
+  ],
+  "hints": []
+}
