@@ -30,7 +30,7 @@ public class ContactEntity {
 	private String contactEmail;
 	
 	@Column(name="CONTACT_NUMBER")
-	private Long contactNumber;
+	private String contactNumber;
 	
 	@Column(name="CREATE_DATE", updatable = false)
 	@CreationTimestamp
