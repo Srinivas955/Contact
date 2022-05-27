@@ -21,7 +21,7 @@ public class ContactEntity {
 	@Id
 	@GeneratedValue
 	@Column(name="CONTACT_ID")
-	private Integer contactId;
+	private Number contactId;
 	
 	@Column(name="CONTACT_NAME")
 	private String contactName;
